@@ -1,0 +1,8 @@
+.list-dino {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-dino .item {
+  margin-bottom: var(--gap-smaller);
+}

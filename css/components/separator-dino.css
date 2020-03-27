@@ -1,0 +1,33 @@
+.separator-dino {
+  --half-width-egg: 11px;
+
+  background-image: url('../../img/egg.png');
+  background-size: auto 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 22px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--gap-medium);
+  margin-bottom: var(--gap-medium);
+}
+
+.separator-dino::before,
+.separator-dino::after {
+  content: '';
+  width: calc(50% - var(--half-width-egg) - var(--gap-very-small));
+  height: 4px;
+  background-color: var(--color-first);
+}
+
+.separator-dino::before {
+  /* border-radius: top/left top/right bottom/right bottom/left */
+  border-radius: 0 2px 2px 0
+  
+}
+
+.separator-dino::after {
+  border-radius: 2px 0 0 2px
+}

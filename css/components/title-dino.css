@@ -1,0 +1,8 @@
+.title-dino {
+  font-size: 28px;
+  line-height: 36px;
+  color: #FCFDFC;
+  font-family: 'Bungee', sans-serif;
+  margin-top: var(--gap-big);
+  margin-bottom: var(--gap-big);
+}
