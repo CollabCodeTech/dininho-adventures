@@ -1,5 +1,6 @@
 .separator-dino {
   --half-width-egg: 11px;
+  --half-width-eggs: 30px;
 
   background-image: url('../../img/egg.png');
   background-size: auto 22px;
@@ -14,12 +15,23 @@
   margin-bottom: var(--gap-medium);
 }
 
+.separator-dino.-all {
+  background-image: url('../../img/eggs.png');
+  background-size: 60px auto;
+  height: 58px;
+}
+
 .separator-dino::before,
 .separator-dino::after {
   content: '';
   width: calc(50% - var(--half-width-egg) - var(--gap-very-small));
   height: 4px;
   background-color: var(--color-first);
+}
+
+.separator-dino::before,
+.separator-dino::after {
+  width: calc(50% - var(--half-width-eggs) - var(--gap-very-small));
 }
 
 .separator-dino::before {
