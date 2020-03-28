@@ -1,0 +1,40 @@
+.wrapper-video-dino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video-dino {
+  width: 100%;
+}
+
+.wrapper-video-dino::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-second-light);
+}
+
+.wrapper-video-dino > .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: var(--color-first-light);
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+
+.wrapper-video-dino > .play::before {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 25px solid var(--color-third);
+  transform: translateX(2px);
+}
