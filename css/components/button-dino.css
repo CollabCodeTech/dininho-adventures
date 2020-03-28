@@ -1,0 +1,22 @@
+.button-dino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/button.png');
+  background-size: 100%;
+  width: 196px;
+  height: 50px;
+  color: var(--color-first);
+  text-decoration: none;
+  margin: var(--gap-medium) auto;
+  font-size: 20px;
+  transition: transform 100ms linear;
+}
+
+.button-dino:hover {
+  transform: scale(1.05);
+}
+
+.button-dino > .content {
+  transform: translateY(-2px);
+}
