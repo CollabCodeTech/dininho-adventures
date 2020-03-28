@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .video-dino {
@@ -15,7 +16,13 @@
   width: 100%;
   height: 100%;
   background-color: var(--color-second-light);
+  transition: transform 300ms linear; 
 }
+
+.wrapper-video-dino.-play::before {
+  transform: translateX(-100%);
+}
+
 
 .wrapper-video-dino > .play {
   display: flex;
@@ -27,6 +34,11 @@
   background-color: var(--color-first-light);
   border-radius: 50%;
   text-indent: -9999px;
+  transition: opacity 200ms linear;
+}
+
+.wrapper-video-dino.-play > .play {
+  opacity: 0;
 }
 
 .wrapper-video-dino > .play::before {
