@@ -16,6 +16,7 @@
 @import './components/video-dino.css';
 @import './components/button-dino.css';
 
+@import './containers/header-dino.css';
 @import './containers/section-dino.css';
 @import './containers/footer-dino.css';
 @import './containers/wrapper-social.css';

@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   /* background: linear-gradient(181.15deg, #7E5002 20.16%, #E69405 36.19%, #FAD121 98.57%) #FAD121 no-repeat;  */
   background-color: #FAD121;

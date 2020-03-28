@@ -1,4 +1,6 @@
 :root {
+  --color-sky: #b5e4e3;
+
   --color-first: #FAFFFF;
   --color-first-light: rgba(250, 255, 255, 0.52);
   --color-second: #050914;
