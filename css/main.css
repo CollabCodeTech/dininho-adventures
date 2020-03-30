@@ -1,5 +1,6 @@
 @import './settings/gaps.css';
 @import './settings/colors.css';
+@import './tools/base.css';
 
 @import './reset.css';
 

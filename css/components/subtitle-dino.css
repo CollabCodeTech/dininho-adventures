@@ -3,3 +3,9 @@
   font-family: 'Bungee', sans-serif;
   margin-bottom: var(--gap-medium);
 }
+
+@media (min-width: 600px) {
+  .subtitle-dino {
+    font-size: 48px;
+  }
+}

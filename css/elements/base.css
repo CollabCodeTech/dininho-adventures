@@ -10,6 +10,11 @@ body {
   font-family: 'Nunito', sans-serif;
   color: #73263d;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 20px;
+    line-height: 1.4;
+  }
 }

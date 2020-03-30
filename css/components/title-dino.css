@@ -6,3 +6,10 @@
   margin-top: var(--gap-big);
   margin-bottom: var(--gap-big);
 }
+
+@media (min-width: 600px) {
+  .title-dino {
+    font-size: 50px;
+    line-height: 36px;
+  }
+}

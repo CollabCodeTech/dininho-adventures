@@ -43,3 +43,18 @@
 .separator-dino::after {
   border-radius: 2px 0 0 2px
 }
+
+@media (min-width: 600px) {
+  .separator-dino {
+    --half-width-egg: 22px;
+    --half-width-eggs: 35px;
+
+    height: 44px;
+    background-size: auto 44px;
+  }
+
+  .separator-dino.-all {
+    background-size: 70px auto;
+    height: 70px;
+  }
+}

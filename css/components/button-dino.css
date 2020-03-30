@@ -20,3 +20,11 @@
 .button-dino > .content {
   transform: translateY(-2px);
 }
+
+@media (min-width: 600px) {
+  .button-dino {
+    width: 320px;
+    height: 81px;
+    font-size: 30px;
+  }
+}
