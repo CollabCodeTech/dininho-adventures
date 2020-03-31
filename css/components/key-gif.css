@@ -1,0 +1,51 @@
+.key-gif {
+  position: fixed;
+  background-color: var(--color-dino);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+  opacity: 0;
+
+  transition: opacity 200ms linear;
+}
+
+.key-gif.-active {
+  z-index: 2;
+  opacity: 1;
+}
+
+.key-gif::after {
+  content: '';
+  background-image: url('../../img/key-1.png');
+  width: 80px;
+  height: 160px;
+  position: absolute;
+  z-index: 1;
+  
+  animation: 600ms linear infinite easteregg;
+}
+
+@keyframes easteregg {
+  0% {
+    background-image: url('../../img/key-1.png');
+  }
+  20% {
+    background-image: url('../../img/key-2.png');
+  }
+  40% {
+    background-image: url('../../img/key-3.png');
+  }
+  60% {
+    background-image: url('../../img/key-4.png');
+  }
+  80% {
+    background-image: url('../../img/key-5.png');
+  }
+  100% {
+    background-image: url('../../img/key-6.png');
+  }
+}
+

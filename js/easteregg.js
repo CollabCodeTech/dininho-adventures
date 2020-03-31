@@ -1,5 +1,6 @@
 (() => {
   const $separators = document.querySelectorAll('.separator-dino');
+  const $keyGif = document.querySelector('.key-gif');
   let counter = 0;
   const goalShowKey = $separators.length;
 
@@ -12,6 +13,6 @@
   });
 
   function showKey() {
-    alert("Mostra key animada!!!")
+    $keyGif.classList.add('-active');
   }
 })();
