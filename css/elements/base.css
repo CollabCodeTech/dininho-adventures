@@ -3,9 +3,8 @@ html, body {
 }
 
 body {
-  /* background: linear-gradient(181.15deg, #7E5002 20.16%, #E69405 36.19%, #FAD121 98.57%) #FAD121 no-repeat;  */
   background-color: #FAD121;
-  background-image: linear-gradient(181.15deg, #7E5002 20.16%, #E69405 36.19%, #FAD121 98.57%);
+  background-image: linear-gradient(181.15deg, #7E5002 50.16%, #E69405 70.19%, #FAD121 98.57%);
   background-repeat: no-repeat;
   font-family: 'Nunito', sans-serif;
   color: #73263d;
