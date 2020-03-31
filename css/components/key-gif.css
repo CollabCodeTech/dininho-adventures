@@ -1,6 +1,6 @@
 .key-gif {
   position: fixed;
-  background-color: var(--color-dino);
+  background-color: var(--color-dino-light);
   width: 100vw;
   height: 100vh;
   display: flex;

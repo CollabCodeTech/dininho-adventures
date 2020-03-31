@@ -1,5 +1,6 @@
 :root {
-  --color-dino: rgba(122, 57, 157, 0.8);  
+  --color-dino: #7a399d;
+  --color-dino-light: rgba(122, 57, 157, 0.8);  
   --color-sky: #b5e4e3;
 
   --color-first: #FAFFFF;

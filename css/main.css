@@ -17,6 +17,7 @@
 @import './components/video-dino.css';
 @import './components/button-dino.css';
 @import './components/key-gif.css';
+@import './components/carousel-dino.css';
 
 @import './containers/header-dino.css';
 @import './containers/section-dino.css';
