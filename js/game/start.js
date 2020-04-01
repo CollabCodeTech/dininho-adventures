@@ -3,18 +3,17 @@
   const screen = {
     width: win.innerWidth,
     height: win.innerHeight
-  }
-
+  };
   const $canvas = doc.querySelector('#game-dino');
   const context = $canvas.getContext('2d');
-  const floor = new Image();
-
+  const floor = new Floor(context, screen);
+  const sky = new Sky(context, screen);
+  
   $canvas.width = screen.width;
   $canvas.height = screen.height;
 
-  floor.src = '../img/game/floor.png';
+  context.globalCompositeOperation = "destination-over";
 
-  floor.addEventListener('load', () => {
-    context.drawImage(floor, 0, screen.height - floor.height);
-  });
+  floor.draw();
+  sky.draw();
 })(window, document);
