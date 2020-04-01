@@ -1,0 +1,10 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-dino {
+  min-width: 100%;
+  min-height: 100%;
+}
