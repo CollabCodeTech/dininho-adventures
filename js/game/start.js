@@ -11,5 +11,5 @@
   $canvas.width = screen.width;
   $canvas.height = screen.height;
 
-  Draw(context, screen);
+  Loop(context, screen);
 })(window, document);

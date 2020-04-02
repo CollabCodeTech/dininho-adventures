@@ -15,8 +15,9 @@ function Dininho(context, screen, floorHeight) {
     })
   };
 
-  const update = (deltaTime) => {
-    position.x += 5 / deltaTime;
+  const update = () => {
+    console.log('Entrou tio!')
+    position.x += 5;
   }
 
   return {
