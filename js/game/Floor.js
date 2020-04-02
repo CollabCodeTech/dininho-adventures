@@ -1,3 +1,5 @@
+'use strict';
+
 function Floor (context, screen) {
   const floor = new Image();
   floor.src = '../../img/game/floor.png';
@@ -10,7 +12,8 @@ function Floor (context, screen) {
   }
 
   return {
-    draw
+    draw,
+    height: floor.height
   }
 }
 

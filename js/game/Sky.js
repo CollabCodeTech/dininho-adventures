@@ -1,3 +1,5 @@
+'use strict';
+
 function Sky(context, screen) {
   const sky = new Image();
   sky.src = '../../img/sky.png';
